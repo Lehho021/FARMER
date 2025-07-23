@@ -23,25 +23,39 @@ const Navigation = () => {
           <div className="col-sm-9 navPart2 d-flex align-items-center">
             <ul className="list list-inline ml-auto">
               <li className="list-inline-item">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="list-inline-item">
-                <Link to="/">Tool</Link>
-              </li>
-              <li className="list-inline-item">
                 <Link to="/">
-                  <RiSeedlingLine />
-                  Seed
+                  <Button>Home</Button>
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/">Lorem</Link>
+                <Link to="/">
+                  <Button>Tools</Button>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/">About Us</Link>
+                <Link to="/">
+                  <Link to="/">
+                    <Button>
+                      <RiSeedlingLine />
+                      Seed
+                    </Button>
+                  </Link>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/">Contact Us</Link>
+                <Link to="/">
+                  <Button>Home1</Button>
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="/">
+                  <Button>Home2</Button>
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="/">
+                  <Button>Home3</Button>
+                </Link>
               </li>
             </ul>
           </div>
