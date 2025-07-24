@@ -46,7 +46,7 @@ const Header = () => {
                         <IoBagOutline />
                       </Button>
                       <span className="count d-flex align-items-center justify-content-center">
-                        1
+                        2
                       </span>
                     </div>
                   </div>
